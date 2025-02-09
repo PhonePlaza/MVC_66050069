@@ -13,20 +13,6 @@ Features
 
 ใช้งาน GUI ผ่าน JFrame และ JTabbedPane
 
-Installation & Setup
-
-1. Clone Repository
-
-git clone <repository-url>
-cd MagicPetImportSystem
-
-2. Compile and Run
-
-ใช้คำสั่งต่อไปนี้เพื่อคอมไพล์และรันโปรแกรม:
-
-javac -d bin -sourcepath src src/MVC_66050069/Main.java
-java -cp bin MVC_66050069.Main
-
 Usage
 
 เปิดโปรแกรม จะพบแท็บ 4 แท็บ: Report, Phoenix, Dragon, Owl
@@ -39,20 +25,3 @@ Usage
 
 ไปที่แท็บ Report แล้วกด Refresh Report เพื่อตรวจสอบข้อมูลที่บันทึก
 
-File Structure
-MagicPetImportSystem/
-│── src/
-│   ├── MVC_66050069/
-│   │   ├── Model/
-│   │   │   ├── Pet.java
-│   │   │   ├── Phoenix.java
-│   │   │   ├── Dragon.java
-│   │   │   ├── Owl.java
-│   │   │   ├── PetDatabase.java
-│   │   ├── View/
-│   │   │   ├── PetManagementView.java
-│   │   ├── Controller/
-│   │   │   ├── PetController.java
-│   │   ├── Main.java
-│── bin/ (compiled files)
-│── README.md
